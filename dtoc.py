@@ -21,7 +21,6 @@ from plotly.offline import plot
 from scipy.interpolate import make_interp_spline, BSpline
 
 ## load datasets
-df = pd.read_csv(os.path.join(dataPath, "dtoc_full.csv"))
 dfTotals = pd.read_csv(os.path.join(dataPath, "dtoc_totals.csv"))
 
 ## dtoc by time
